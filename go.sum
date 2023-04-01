@@ -1,0 +1,10 @@
+github.com/JoshuaDoes/json v0.0.0-20200726213358-ec3860544ac0 h1:315Zb0n+8KwZyUiIKbDGvfrQ003c0XfHYNy0M4vv5cA=
+github.com/JoshuaDoes/json v0.0.0-20200726213358-ec3860544ac0/go.mod h1:vsCdx75bni6k6GIQPPima8KiM7ZjNHeBJ8keBaJOADA=
+github.com/gabriel-samfira/go-hivex v0.0.0-20190725123041-b40bc95a7ced h1:QGy2AdPMyJWF1pI/GaAxpEY0qIFn/ekrimYrucQeNNk=
+github.com/gabriel-samfira/go-hivex v0.0.0-20190725123041-b40bc95a7ced/go.mod h1:2uhxVfr/8oFRFnCQbpoSzKG+qCvKH3yVt8FPASfJO28=
+github.com/google/go-cmp v0.3.0 h1:crn/baboCvb5fXaQ0IJ1SGTsTVrWpDsCWC8EGETZijY=
+github.com/google/go-cmp v0.3.0/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+gotest.tools v2.2.0+incompatible h1:VsBPFP1AI068pPrMxtb/S8Zkgf9xEmTLJjfM+P5UIEo=
+gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81HFBacw=
