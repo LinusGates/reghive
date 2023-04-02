@@ -8,6 +8,8 @@ import (
 	"strconv"
 	"strings"
 	"unicode/utf16"
+
+	"github.com/LinusGates/osmgr"
 )
 
 func GuidFrom(b []byte) string {
@@ -213,6 +215,17 @@ func BCDDeviceFromBin(b []byte) (dev *BCDDevice, err error) {
 		return nil, fmt.Errorf("Unknown packet type: %d", ptype)
 	}
 
-	dev.Device = GetDevice(dev.DiskID, dev.PartID)
+	if dev.Type == "partition" {
+		disk := osmgr.GetDisk(dev.DiskID)
+		if disk != nil {
+			part := disk.GetPartition(dev.PartID)
+			if part != nil {
+				dev.Device = part.Block
+			} else {
+				dev.Device = disk.Block
+			}
+		}
+	}
+
 	return dev, nil
 }
